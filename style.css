@@ -53,9 +53,15 @@ img {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     border: none;
-    padding: 5px 15px;
-    border-radius: 6px;
+    padding: 10px 15px;
+    border-radius: 10px;
     cursor: pointer;
+}
+
+.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-badge {
@@ -105,8 +111,6 @@ img {
     display: block;
     width: fit-content;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 3px 10px;
     font-size: 11px;
 }
@@ -123,6 +127,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-bottom: 25px;
 }
 
 .card-badge-container {
@@ -187,4 +192,42 @@ img {
     border: 1px solid var(--border-grey-color);
     border-radius : 4px;
     font-weight: 500;
+}
+
+.about-container {
+    display: flex;
+    gap: 150px;
+    margin-top: 70px;
+}
+
+.about-left, .about-right {
+    width: 50%;
+}
+
+.justify-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.about-header {
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.about-ad {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.about-left div button {
+    margin-top: 20px;
+}
+
+.about-right > img {
+    border-radius: 5%;
 }
