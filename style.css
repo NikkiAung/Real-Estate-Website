@@ -409,3 +409,50 @@ img {
     position: sticky;
     top: 30px;
 }
+
+.agent-container {
+    margin-top: 100px;
+}
+
+.agent-header {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.agent-slider {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.agent-card  {
+    width: 350px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.agent-img-container {
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.agent-img-container > img {
+    border-radius: 5%;
+    height: auto;
+    transition: all linear 0.5s;
+}
+
+.agent-img-container > img:hover {
+    transform: scale(1.1);
+}
+
+.agent-card > p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.agent-card > p:nth-of-type(2) {
+    font-size: 12px;
+}
