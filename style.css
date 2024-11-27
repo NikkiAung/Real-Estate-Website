@@ -250,6 +250,8 @@ img {
     line-height: 1;
     margin-top: 10px;
     margin-bottom: 30px;
+    text-align: center;
+    width: 500px;
 }
 
 .categories-squeeze {
@@ -281,6 +283,7 @@ img {
 }
 
 .contact-left, .contact-right {
+    margin-left: 70px;
     width: 50%;
 }
 
@@ -307,4 +310,53 @@ img {
 .contact-right-bottom > button {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.property-success-rates-container {
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.property-success-rates-left, .property-success-rates-right {
+    width: 50%;
+}
+
+.property-success-rates-left p:nth-of-type(1) {
+    margin-bottom: 15px;
+}
+
+.property-success-rates-left p:nth-of-type(2) {
+    font-size: 50px;
+    line-height: 1cm;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.property-success-rates-right {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.property-success-card {
+    background-color: #F7F7F7;
+    border-radius: 10%;
+    padding: 20px 20px;
+}
+
+.property-success-card p:first-of-type{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.property-success-card p:nth-of-type(2){
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: -4px;
+    margin-bottom: 30px;
+}
+
+.property-success-card p:nth-of-type(3){
+    font-size: 10px;
 }
