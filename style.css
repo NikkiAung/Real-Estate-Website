@@ -615,7 +615,7 @@ img {
     width: 40%;
 }
 
-.faq-sub-header {
+.normal-sub-header {
     font-size: 44px;
     font-weight: 600;
     line-height: 1;
@@ -635,4 +635,45 @@ img {
     border: 1px solid var(--border-grey-color);
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.secondary-badge {
+    border: 2px solid #544c50;
+    background-color: #241D1F;
+    color: var(--secondary-color);
+    padding: 5px 13px;
+    margin-bottom: 10px;
+}
+
+.footer-container {
+    position: relative;
+    background-color: var(--primary-color);
+    padding-top: 100px;
+    color: white;
+}
+
+.footer-left {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.footer-right {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+
+.input {
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-grey-color);
+    color: white;
+    padding-bottom: 13px;
+    font-size: 12px;
+    width: 100%;
+    background-color: transparent;
 }
