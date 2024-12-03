@@ -478,9 +478,11 @@ img {
     margin-left: 20px;
     border-radius: 20px;
     width: 90%;
+    margin-top: 20px;
 }
 
-/* .testimonials-card  {
+.testimonials-card  {
+    margin: 20px auto;
     display: flex;
     border: 1px solid var(--border-grey-color);
     padding: 70px 60px;
@@ -488,9 +490,9 @@ img {
     gap: 90px;
     width: 900px;
     height: 350px;
-    align-items: center;
     flex-shrink: 0;
-} */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
 
 .testimonials-header {
     margin-top: -10px;
