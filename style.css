@@ -281,7 +281,7 @@ img {
 
 .contact-left > img {
     border-radius: 10%;
-    width: 80%;
+    /* width: 80%; */
     height: 90%;
 }
 
@@ -658,7 +658,7 @@ img {
 }
 
 .footer-right {
-    width: 50%;
+    /* width: 50%; */
     position: absolute;
     top: 100px;
     left: 40%;
@@ -739,4 +739,22 @@ img {
     text-align: center;
     font-weight: 100;
     color: var(--border-grey-color);
+}
+
+@media (max-width:1024px) {
+    .container {
+        padding: 20px 20px;
+    }
+
+    .real-estate-topic {
+        text-align: center;
+    }
+
+    .property-success-rates-left {
+        width: 40%;
+    }
+
+    .property-success-rates-right {
+        width: 60%;
+    }
 }
