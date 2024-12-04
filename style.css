@@ -218,6 +218,7 @@ img {
     margin-top: 10px;
     font-size: 40px;
     line-height: 1;
+    font-weight: 600;
 }
 
 .about-ad {
@@ -254,7 +255,7 @@ img {
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
-    width: 500px;
+    width: 100%;
 }
 
 .categories-squeeze {
@@ -280,13 +281,12 @@ img {
 }
 
 .contact-left > img {
-    border-radius: 10%;
+    border-radius: 5%;
     /* width: 80%; */
     height: 90%;
 }
 
 .contact-left, .contact-right {
-    margin-left: 70px;
     width: 50%;
 }
 
@@ -752,11 +752,11 @@ img {
     }
 
     .property-success-rates-left {
-        width: 40%;
+        width: 50%;
     }
 
     .property-success-rates-right {
-        width: 60%;
+        width: 50%;
     }
 
     .step-container {
@@ -793,6 +793,20 @@ img {
     }
 }
 
+.mobile-nav-responsive {
+    display: none;
+}
+
+.hamburger-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10%;
+}
+
 @media (max-width:768px) {
 
     .faq-container {
@@ -819,4 +833,145 @@ img {
         grid-template-columns: repeat(2,1fr);
     }
 
+    .featured-properties .sub-header {
+        width: 100%;
+    }
+
+    .featured-properties-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .about-container .about-left, .about-container .about-right {
+        width: 100%;
+    }
+
+    .about-left .justify-between .badge {
+        margin-bottom: 20px;
+    }
+
+    .about-left .justify-between .about-header {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    
+    .about-left .justify-between .about-ad {
+        margin-bottom: 12px;
+        font-weight: 400;
+    }
+
+    .badge  {
+        font-size: 15px;
+    }
+
+    .button {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .featured-properties .button {
+        margin-top: 50px;
+    }
+
+    .categories-container .categories-header {
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .contact-container .contact-left, .contact-container .contact-right {
+        width: 100%;
+    }
+
+    .contact-container .contact-right {
+        display: flex;
+        justify-content:center;
+        height: 35vh;
+    }
+
+    .contact-right .badge {
+        margin-bottom: 60px;
+    }
+
+    .contact-right .contact-header{
+        margin-bottom: 40px;
+    }
+
+    .contact-right-bottom > p {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .property-success-rates-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 60px;
+    }
+
+    .property-success-rates-container .property-success-rates-left .property-success-rates-right {
+        width: 100%;
+    }
+
+    .property-success-rates-container .property-success-rates-left .badge {
+        width: fit-content;
+    }
+
+    .property-success-rates-container .property-success-rates-left .success-header {
+        font-size: 40px;
+        width: 700px;
+    }
+
+    .property-success-rates-container .property-success-rates-right {
+        width: 500px;
+    }
+
+    .testimonials-card-container {
+        transform: translateX(0px);
+    }
+
+    .testimonials-card-container .testimonials-card {
+        width: 100%;
+        height: 400px;
+    }   
+
+    .testimonials-card .testimonials-description{
+        margin-bottom: 10px;
+    }
+
+    .navbar .nav-link, .navbar .button {
+        display: none;
+    } 
+
+    .mobile-nav-responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .real-estate-topic {
+        font-size: 100px;
+        margin-bottom: 5px;
+        position: relative;
+        width: 100%;
+    }
+
+    .hero-image {
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        height: auto;
+        z-index: 1000;
+    }
 }
