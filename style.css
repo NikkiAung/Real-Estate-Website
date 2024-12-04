@@ -402,11 +402,15 @@ img {
     width: 70%;
 }
 
-.step-right > img {
+.step-img {
     border-radius: 5%;
     height: auto;
     position: sticky;
     top: 30px;
+}
+
+.step-hide-img {
+    display: none;
 }
 
 .agent-container {
@@ -973,5 +977,46 @@ img {
 
     .process-container .sub-header {
         width: 70%;
+    }
+
+    .step-container {
+        flex-direction: column;
+    }
+
+    .step-left {
+        width: 100%;
+    }
+
+    .step {
+        margin-bottom: 40px;
+    }
+
+    .step-hide-img {
+        display: inline;
+        width: 70%;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .step-1-description, .step-2-description, .step-3-description {
+        width: 80%;
+    }   
+
+    .step-1-description, .step-2-description {
+        margin-bottom: 20px;
+    }
+
+    .step-right > img {
+        width: 140%;
+    }
+
+    .step-container {
+        gap: 0px;
+    }
+
+    .step-3-container {
+        margin-bottom: 16px;
     }
 }
