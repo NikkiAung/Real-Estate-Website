@@ -757,4 +757,24 @@ img {
     .property-success-rates-right {
         width: 60%;
     }
+
+    .step-container {
+        gap: 20px;
+    }
+
+    .step-left {
+        width: 70%;
+    }
+
+    .testimonials-card-container {
+        transform: translateX(50px);
+    }
+
+    .footer-left {
+        width: 40%;
+    }
+
+    .footer-right {
+        top: 90px;
+    }
 }
