@@ -1221,3 +1221,29 @@ img {
         font-size: 14px;
     }
 }
+
+@media (max-width:320px) {
+    .real-estate-topic {
+        margin-top: -40px;
+        font-size: 50px;
+    }
+    
+    .property-success-rates-container .property-success-rates-left .badge {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 105%;
+    }
+
+    .categories-container {
+        margin-top: 60px;
+    }
+
+    .about-container {
+        margin-top: 50px;
+    }
+
+    .process-container {
+        margin-top: 40px;
+    }
+}
