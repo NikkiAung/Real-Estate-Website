@@ -1216,4 +1216,8 @@ img {
     .agent-header {
         font-size: 30px;
     }
+
+    .templates-button {
+        font-size: 14px;
+    }
 }
