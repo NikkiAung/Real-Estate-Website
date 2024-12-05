@@ -342,6 +342,7 @@ img {
     background-color: #F7F7F7;
     border-radius: 10%;
     padding: 20px 20px;
+    border: 1px solid var(--border-grey-color);
 }
 
 .property-success-card p:first-of-type{
@@ -476,7 +477,6 @@ img {
 }
 
 .testimonials-card-right > img {
-    margin-left: 20px;
     border-radius: 20px;
     width: 90%;
     margin-top: 20px;
@@ -929,7 +929,7 @@ img {
 
     .property-success-rates-container .property-success-rates-left .success-header {
         font-size: 40px;
-        width: 700px;
+        width: 160%;
     }
 
     .property-success-rates-container .property-success-rates-right {
@@ -1049,5 +1049,171 @@ img {
     .footer-nav-container .first-col {
         grid-column: 1 / span 4;
         width: 50%;
+    }
+}
+
+.featured-properties-container .button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--border-grey-color);
+}
+
+@media (max-width:425px) {
+    .real-estate-topic {
+        width: 100%;
+        font-size: 60px;
+        letter-spacing: -5px;
+    }
+
+    .sub-header {
+        font-size: 30px !important;
+    }
+
+    .about-header {
+        font-size: 30px !important;
+    }
+
+    .contact-header {
+        font-size: 30px !important;
+        margin-bottom: 10px;
+    }
+
+    .featured-properties-container {
+        grid-template-columns: 1fr;
+    }
+
+    .property-success-rates-container .property-success-rates-left .success-header {
+        width: 180%;
+        font-size: 32px;
+    }
+
+    .featured-properties-container .button {
+        margin-bottom: 10px;
+    }
+
+    .contact-container {
+        margin-top: 0px;
+    }
+
+    .contact-container .contact-left {
+        margin-bottom: 90px;
+    }
+
+    .property-success-rates-right {
+        grid-template-columns: 1fr;
+    }
+
+    .property-success-rates-right .property-success-card {
+        width: 65%;
+    }
+
+    .process-container .sub-header {
+        font-size: 30px !important;
+        width: 100%;
+    }
+
+    .step-header {
+        font-size: 30px !important;
+    }
+
+    .step-container img {
+        width: 100% !important;
+    }
+
+    .step-right .step-img {
+        width: 200% !important;
+    }
+
+    .agent-container {
+        margin-top: 30px;
+    }
+
+    .testimonials-container {
+        margin-top: 30px;
+    }
+
+    .testimonials-container .sub-header {
+        width: 100%;
+    }
+
+    .testimonials-card-container .testimonials-card {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials-card {
+        padding: 40px 40px;
+    }
+
+    .testimonials-card-left h1 {
+        line-height: 1.2;
+        font-size: 20px;
+        width: 170%;
+    }
+
+    .testimonials-card-left p {
+        width: 170%;
+    }
+
+    .testimonials-card-right > img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogs-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-header  {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blogs-header .blogs-sub-header{
+        font-size: 35px;
+        line-height: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content:flex-start;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .normal-sub-header {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .accordian-bar > p {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .accordian-bar {
+        padding: 17px 17px;
+    }
+
+    .footer-nav-container {
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 250px;
+    }
+
+    .footer-nav-container .first-col {
+        grid-column: 1 / span 2;
+    }
+
+    .footer-right > img {
+        overflow: visible;
+        position:relative;
+        top: -100px;
+        z-index: 1000;
+    }
+
+    .agent-header {
+        font-size: 30px;
     }
 }
