@@ -812,8 +812,8 @@ img {
     .faq-container {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .faq-container .faq-container-left, .faq-container .faq-container-right {
@@ -949,6 +949,10 @@ img {
         margin-bottom: 10px;
     }
 
+    .testimonials-container .sub-header {
+        width: 70%;
+    }
+
     .navbar .nav-link, .navbar .button {
         display: none;
     } 
@@ -1018,5 +1022,32 @@ img {
 
     .step-3-container {
         margin-bottom: 16px;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        left: 0;
+        width: 100%;
+        top: 40%;
+        margin-bottom: 60px;
+        z-index: 0;
+    }
+
+    .footer-right > img {
+        margin-top: -160px;
+    }
+
+    .footer-nav-container {
+        margin-top: 450px;
+        z-index: 0;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .footer-nav-container .first-col {
+        grid-column: 1 / span 4;
+        width: 50%;
     }
 }
