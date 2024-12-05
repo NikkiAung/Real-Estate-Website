@@ -449,13 +449,26 @@ img {
 .agent-slider {
     display: flex;
     gap: 25px;
+    animation: slide 9s linear infinite;
+}
+
+.agent-slider-container {
+    width: 100%;
     overflow: hidden;
 }
 
-.agent-card  {
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.agent-card {
     width: 350px;
     flex-shrink: 0;
-    overflow: hidden;
 }
 
 .agent-img-container {
